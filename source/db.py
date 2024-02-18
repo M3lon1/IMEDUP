@@ -4,9 +4,9 @@ from pymongo.server_api import ServerApi
 
 
 cluster_name = "cluster0"
-username = "sebastianheckner1995"
-password = "jQpPmqIEHV6PPhim"
-uri = "mongodb+srv://sebastianheckner1995:jQpPmqIEHV6PPhim@cluster0.ej5xn85.mongodb.net/"
+username = ""
+password = ""
+uri = "mongodb+srv://{}:{}.mongodb.net/".format(username, password)
 
 # Create a new client and connect to the server
 client = MongoClient(uri, server_api=ServerApi('1'))
